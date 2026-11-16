@@ -51,26 +51,34 @@ Ho duplicato la query in Power Query e nella copia ho rimosso i duplicati su `Or
 Ho creato una tabella pivot con **Market** e **Order Country** nelle righe, e con la **media del ritardo (in giorni)** e il **conteggio delle righe** nei valori. Ho poi ordinato i valori dal più grande al più piccolo, sia i market tra loro sia i paesi all'interno di ogni market, per vedere subito dove si concentrano i ritardi.
  
 Ho aggiunto anche la deviazione standard. Dall'immagine si vede chiaramente che non si può concludere che esista una dipendenza geografica dei ritardi di spedizione.
- 
-<img src="pivot_geografia.png" alt="Pivot per market e paese" width="500">
+
+<p align="center">
+  <img src="pivot_geografia.png" alt="Pivot per mese" width="500">
+</p>
  
 ### Stagionalità
  
 Passiamo all'analisi per stagionalità. Anche qui, al variare dei mesi, il ritardo non cambia in modo significativo.
- 
-<img src="pivot_stagionalita.png" alt="Pivot per mese" width="500">
+
+<p align="center">
+  <img src="pivot_stagionalita.png" alt="Pivot per mese" width="500">
+</p>
  
 ### Categoria
  
 Passiamo all'analisi per categoria. Anche qui, al variare della categoria, il ritardo non cambia in modo significativo.
 
-<img src="pivot_categoria.png" alt="Pivot per mese" width="500">
- 
+<p align="center">
+  <img src="pivot_categoria.png" alt="Pivot per mese" width="700">
+</p>
+
 ### Modalità di spedizione
  
 Per quanto riguarda la modalità di spedizione, invece, c'è una differenza significativa.
- 
-<img src="pivot_modalita_spedizione.png" alt="Pivot per mese" width="500">
+
+<p align="center">
+  <img src="pivot_modalita_spedizione.png" alt="Pivot per mese" width="900">
+</p>
  
 Il problema, quindi, sta nel tipo di spedizione. A questo punto mi chiederei perché succede: forse è un problema logistico, e cercherei di risolverlo.
  
