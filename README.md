@@ -23,7 +23,7 @@ Ho escluso anche le spedizioni annullate, che non sono né puntuali né in ritar
  
 ### Power Query
  
-Il primo passo è stato aprire i dati in Power Query. Poiché i separatori decimali non venivano letti correttamente, ho importato il file con le impostazioni internazionali inglese (Stati Uniti) e ho assegnato a ogni colonna il tipo di dato corretto. Sempre in Power Query ho eliminato le colonne non necessarie. Ho poi verificato la presenza di duplicati ed errori con le funzioni "Mantieni duplicati" e "Mantieni errori". Non sono emersi errori. Con "Mantieni duplicati", invece, sono comparse molte righe, com'è normale, perché ogni ordine comprende più spedizioni.
+Il primo passo è stato aprire i dati in Power Query. Poiché i separatori decimali non venivano letti correttamente, ho importato il file con le impostazioni internazionali inglese (Stati Uniti) e ho assegnato a ogni colonna il tipo di dato corretto. Sempre in Power Query ho eliminato le colonne non necessarie. Ho poi verificato la presenza di duplicati ed errori con le funzioni "Mantieni duplicati" e "Mantieni errori". Non sono emersi errori. Con "Mantieni duplicati", invece, sono comparse molte righe, com'è normale, perché ogni ordine comprende più articoli.
  
 Dopo queste verifiche ho caricato la tabella in Excel. La domanda a cui volevo rispondere è: **il ritardo dipende da un trasporto lento o da una promessa irrealistica?**
  
