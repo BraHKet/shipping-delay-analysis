@@ -52,25 +52,25 @@ Ho creato una tabella pivot con **Market** e **Order Country** nelle righe, e co
  
 Ho aggiunto anche la deviazione standard. Dall'immagine si vede chiaramente che non si può concludere che esista una dipendenza geografica dei ritardi di spedizione.
  
-![Pivot per market e paese](pivot_geografia.png)
+<img src="pivot_geografia.png" alt="Pivot per market e paese" width="500">
  
 ### Stagionalità
  
 Passiamo all'analisi per stagionalità. Anche qui, al variare dei mesi, il ritardo non cambia in modo significativo.
  
-![Pivot per mese](pivot_stagionalita.png)
+<img src="pivot_stagionalita.png" alt="Pivot per mese" width="500">
  
 ### Categoria
  
 Passiamo all'analisi per categoria. Anche qui, al variare della categoria, il ritardo non cambia in modo significativo.
- 
-![Pivot per categoria](pivot_categoria.png)
+
+<img src="pivot_categoria.png" alt="Pivot per mese" width="500">
  
 ### Modalità di spedizione
  
 Per quanto riguarda la modalità di spedizione, invece, c'è una differenza significativa.
  
-![Pivot per modalità di spedizione](pivot_modalita_spedizione.png)
+<img src="pivot_modalita_spedizione.png" alt="Pivot per mese" width="500">
  
 Il problema, quindi, sta nel tipo di spedizione. A questo punto mi chiederei perché succede: forse è un problema logistico, e cercherei di risolverlo.
  
